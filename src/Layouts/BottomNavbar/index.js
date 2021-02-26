@@ -34,7 +34,6 @@ export default function LabelBottomNavigation() {
   return (
     <>
     <Divider/>
-     <Wrapper >
     <BottomNavigation 
       value={value}
       onChange={(event, newValue) => {
@@ -47,12 +46,10 @@ export default function LabelBottomNavigation() {
      
       <BottomNavigationAction label="Home" icon={<HomeIcon style={{fill:"black"}}/>} />
       <BottomNavigationAction label="Explore" icon={<ExploreIcon style={{fill:"black"}}/>} />
-      <BottomNavigationAction value="add" icon={<AddCircleOutlineIcon style={{fill:"black"}}/>} />
       <BottomNavigationAction label="Subscription"  icon={<SubscriptionsIcon style={{fill:"black"}}/>} />
       <BottomNavigationAction label="Library"  icon={<VideoLibraryIcon style={{fill:"black"}} />} />
       
     </BottomNavigation>
-    </Wrapper >
     <Divider/>
     </>
   );

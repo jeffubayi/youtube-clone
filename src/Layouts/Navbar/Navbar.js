@@ -209,7 +209,8 @@ export default function PrimarySearchAppBar() {
               aria-controls={mobileMenuId}
               onClick={handleMobileMenuOpen}
                           >
-          <Avatar src="https://avatars0.githubusercontent.com/u/47192245?s=460&u=a1d196f1ca522563bd47ead569c58e4026a91677&v=4" style={{height:"4.5vh",width:"10vw",marginRight:"-1rem"}}/>
+          <Avatar 
+          src="https://avatars0.githubusercontent.com/u/47192245?s=460&u=a1d196f1ca522563bd47ead569c58e4026a91677&v=4" style={{height:"4.9vh",width:"9vw",marginRight:"-1rem"}}/>
          </IconButton>
                    </div>
         </Toolbar>
