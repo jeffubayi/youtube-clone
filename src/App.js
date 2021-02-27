@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
 import { Wrapper } from "./Globalstyles";
 import Home from "./Pages/Home/Home";
 import BottomNav from "./Layouts/BottomNavbar";
@@ -14,7 +13,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={Home} />
         </Switch>
-        <BottomNav/>
+        <BottomNav />
       </Wrapper>
     </Router>
   );
